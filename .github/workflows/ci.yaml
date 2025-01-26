@@ -36,6 +36,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          uv sync  --system --only-group build
+          uv sync --only-group build
+          . .venv/bin/activate
 
       - run: mkdocs gh-deploy --force
