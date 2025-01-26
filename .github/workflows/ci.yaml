@@ -35,8 +35,6 @@ jobs:
             mkdocs-material-
 
       - name: Install dependencies
-        run: |
-          uv sync --only-group build \
-          && . .venv/bin/activate
+        run: uv sync --only-group build
 
-      - run: mkdocs gh-deploy --force
+      - run: source .venv/bin/activate && mkdocs gh-deploy --force
