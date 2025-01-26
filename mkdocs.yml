@@ -6,9 +6,16 @@ plugins:
   # - blog
   - git-revision-date-localized:
       type: date
+      fallback_to_build_date: true
 nav:
-  - sql.md
-  - python.md
+  - SQL: 
+    - Introduction: sql/introduction.md
+    - Concepts: sql/concepts.md
+    - Démarrage: sql/getting-started.md
+    - Syntaxe:
+        Instructions: sql/syntax/instructions.md
+        Functions: sql/syntax/functions.md
+    - Ressources: sql/resources.md
 theme:
   icon:
     logo: octicons/workflow-16
@@ -16,6 +23,9 @@ theme:
   language: fr
   name: material
   features:
+    # - toc.integrate
+    - navigation.indexes
+    - content.code.copy
     - navigation.tabs
     - navigation.sections
     - navigation.expand
@@ -53,6 +63,24 @@ extra:
       préférences, ainsi que pour mesurer l'efficacité de notre documentation et
       savoir si les utilisateurs trouvent ce qu'ils cherchent. Avec votre
       consentement, vous nous aidez à améliorer notre documentation.
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - toc:
+      # permalink: true
+      toc_depth: 3
 
 repo_url: https://github.com/pirocheto/data-engineering-docs
 repo_name: pirocheto/data-engineering-docs
