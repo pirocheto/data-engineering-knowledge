@@ -13,8 +13,8 @@ nav:
     - Concepts: sql/concepts.md
     - Démarrage: sql/getting-started.md
     - Syntaxe:
-        Instructions: sql/syntax/instructions.md
-        Functions: sql/syntax/functions.md
+        - Instructions: sql/syntax/instructions.md
+        - Functions: sql/syntax/functions.md
     - Ressources: sql/resources.md
 theme:
   icon:
