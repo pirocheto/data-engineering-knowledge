@@ -1,5 +1,5 @@
 site_name: Data Ingénieurie
-site_url: https://pirocheto.github.io/data-engineering/
+site_url: https://pirocheto.github.io/data-engineering-docs/
 plugins:
   - privacy
   - search
