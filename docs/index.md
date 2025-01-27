@@ -6,7 +6,9 @@ hide:
   - path
 ---
 
-# Accueil
+# Data Ingénierie
+
+Site de connaissances sur l'ingénierie des données.
 
 <div class="grid cards" markdown>
 

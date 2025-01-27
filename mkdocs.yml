@@ -1,5 +1,5 @@
 site_name: Data Ingénieurie
-site_url: https://pirocheto.github.io/data-engineering-docs/
+site_url: https://pirocheto.github.io/data-engineering-knowledge/
 plugins:
   - privacy
   - search
@@ -8,7 +8,6 @@ plugins:
       type: date
       fallback_to_build_date: true
 nav:
-  - index.md
   - SQL:
     - Démarrage: 
       - Introduction: sql/getting-started/intro.md
@@ -17,10 +16,11 @@ nav:
         - Modélisation: sql/concepts/modeling.md
         - Relations: sql/concepts/relashionships.md
     - Langage:
-        - Instructions: sql/syntax/instructions.md
-        - Functions: sql/syntax/functions.md
-    - Ressources: sql/resources.md
+        - Instructions: sql/language/instructions.md
+        - Functions: sql/language/functions.md
+  - Ressources: resources.md
 theme:
+  custom_dir: overrides
   icon:
     logo: octicons/workflow-16
     repo: fontawesome/brands/git-alt
@@ -47,7 +47,7 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
-      primary: black
+      primary: white
       accent: teal
     - scheme: slate
       toggle:
