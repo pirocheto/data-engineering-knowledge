@@ -12,8 +12,14 @@ hide:
 Bienvenue sur mon site de connaissance dédié au domaine des données.  
 Vous trouverez ici des ressources sur les concepts, les technologies et les outils utilisés par les data ingénieurs pour collecter, stocker, traiter et analyser les données.
 
-[Commencez la lecture](sql/getting-started/intro){ .md-button .md-button--primary }
-[Qui suis-je ? :octicons-link-external-16:](https://www.linkedin.com/in/pierre-rochet){ .md-button }
+<div class="container-buttons">
+<a class="md-button md-button--primary" href='sql/getting-started/intro'>
+Commencez la lecture
+</a>
+<a class="md-button" href='https://www.linkedin.com/in/pierre-rochet'>
+Qui suis-je ?
+</a>
+</div>
 
 ---
 

@@ -31,3 +31,9 @@
 
   --md-typeset-a-color: var(--md-accent-fg-color) !important;
 }
+
+.container-buttons {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
