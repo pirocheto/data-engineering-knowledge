@@ -3,6 +3,7 @@ hide:
   - navigation
   - footer
   - toc
+  - path
 ---
 
 # Accueil
@@ -16,7 +17,7 @@ hide:
 
     Le __langage de requêtes__ structurées pour interagir avec les bases de données relationnelles.
 
-    [:octicons-arrow-right-24: Commencer la lecture](sql/intro)
+    [:octicons-arrow-right-24: Commencer la lecture](sql/getting-started/intro)
 
 -   :material-language-python:{ .lg .middle } __Python__
 

@@ -9,11 +9,14 @@ plugins:
       fallback_to_build_date: true
 nav:
   - index.md
-  - SQL: 
-    - Introduction: sql/intro.md
-    - Concepts: sql/concepts.md
-    - Démarrage: sql/getting-started.md
-    - Syntaxe:
+  - SQL:
+    - Démarrage: 
+      - Introduction: sql/getting-started/intro.md
+      - Installation: sql/getting-started/installation.md
+    - Concepts: 
+        - Modélisation: sql/concepts/modeling.md
+        - Relations: sql/concepts/relashionships.md
+    - Langage:
         - Instructions: sql/syntax/instructions.md
         - Functions: sql/syntax/functions.md
     - Ressources: sql/resources.md
@@ -24,7 +27,7 @@ theme:
   language: fr
   name: material
   features:
-    # - toc.integrate
+    - toc.integrate
     - navigation.indexes
     - content.code.copy
     - navigation.tabs
@@ -45,11 +48,13 @@ theme:
         icon: material/weather-sunny
         name: Switch to dark mode
       primary: black
+      accent: teal
     - scheme: slate
       toggle:
         icon: material/weather-night
         name: Switch to light mode
       primary: black
+      accent: teal
 
 extra:
   social:
@@ -57,6 +62,7 @@ extra:
       link: https://github.com/pirocheto
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/pierre-rochet
+
   consent:
     title: Cookies
     description: >- 
@@ -80,10 +86,15 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - toc:
-      permalink: true
+      permalink: "#"
       toc_depth: 3
   - md_in_html
+  - pymdownx.tabbed:
+      alternate_style: true
 
 repo_url: https://github.com/pirocheto/data-engineering-docs
 repo_name: pirocheto/data-engineering-docs
 copyright: Copyright &copy; 2025 Pirocheto
+
+extra_css:
+  - css/custom.css

@@ -41,7 +41,9 @@ FROM table_name;
 | DB2        | :material-check: |
 | MariaDB    | :material-check: |
 
-## SELECT
+## Selection de données
+
+### SELECT
 
 #### Description
 
@@ -132,7 +134,7 @@ FROM table_name;
 | DB2        | :material-close: |
 | MariaDB    | :material-check: |
 
-## WHERE
+### WHERE
 
 #### Description
 
@@ -326,7 +328,7 @@ WHERE column_name IS NULL;
 | DB2        | :material-check: |
 | MariaDB    | :material-check: |
 
-## GROUP BY
+### GROUP BY
 
 #### Description
 
@@ -383,7 +385,7 @@ WITH ROLLUP;
 | DB2        | :material-check: |
 | MariaDB    | :material-check: |
 
-## HAVING
+### HAVING
 
 #### Description
 
@@ -414,7 +416,7 @@ HAVING condition;
 | DB2        | :material-check: |
 | MariaDB    | :material-check: |
 
-## ORDER BY
+### ORDER BY
 
 #### Description
 
@@ -441,7 +443,7 @@ ORDER BY column1, column2, ... ASC|DESC;
 | DB2        | :material-check: |
 | MariaDB    | :material-check: |
 
-## AS (alias)
+### AS (alias)
 
 #### Description
 
@@ -470,7 +472,7 @@ FROM table_name;
 | DB2        | :material-check: |
 | MariaDB    | :material-check: |
 
-## LIMIT
+### LIMIT
 
 #### Description
 
@@ -496,7 +498,7 @@ LIMIT number;
 | DB2        | :material-check: |
 | MariaDB    | :material-check: |
 
-## CASE
+### CASE
 
 #### Description
 
@@ -526,7 +528,7 @@ FROM table_name;
 | DB2        | :material-check: |
 | MariaDB    | :material-check: |
 
-## UNION
+### UNION
 
 #### Description
 
@@ -582,7 +584,7 @@ FROM table_name2;
 | DB2        | :material-check: |
 | MariaDB    | :material-check: |
 
-## INTERSECT
+### INTERSECT
 
 #### Description
 
@@ -610,7 +612,7 @@ FROM table_name2;
 | DB2        | :material-check: |
 | MariaDB    | :material-close: |
 
-## EXCEPT / MINUS
+### EXCEPT / MINUS
 
 #### Description
 
@@ -638,7 +640,9 @@ FROM table_name2;
 | DB2        | :material-check: |
 | MariaDB    | :material-close: |
 
-## INSERT INTO
+## Modifications de données
+
+### INSERT INTO
 
 #### Description
 
@@ -689,7 +693,7 @@ ON DUPLICATE KEY UPDATE column1 = value1, column2 = value2, ...;
 | DB2        | :material-close: |
 | MariaDB    | :material-check: |
 
-## UPDATE
+### UPDATE
 
 #### Description
 
@@ -715,7 +719,7 @@ WHERE condition;
 | DB2        | :material-check: |
 | MariaDB    | :material-check: |
 
-## DELETE
+### DELETE
 
 #### Description
 
@@ -740,7 +744,7 @@ WHERE condition;
 | DB2        | :material-check: |
 | MariaDB    | :material-check: |
 
-## MERGE
+### MERGE
 
 #### Description
 
@@ -771,7 +775,9 @@ WHEN NOT MATCHED THEN
 | DB2        | :material-check: |
 | MariaDB    | :material-close: |
 
-## TRUNCATE TABLE
+## Manipulation de la structure
+
+### TRUNCATE TABLE
 
 #### Description
 
@@ -795,7 +801,7 @@ TRUNCATE TABLE table_name;
 | DB2        | :material-check: |
 | MariaDB    | :material-check: |
 
-## CREATE DATABASE
+### CREATE DATABASE
 
 #### Description
 
@@ -819,7 +825,7 @@ CREATE DATABASE database_name;
 | DB2        | :material-check: |
 | MariaDB    | :material-check: |
 
-## DROP DATABASE
+### DROP DATABASE
 
 #### Description
 
@@ -843,7 +849,7 @@ DROP DATABASE database_name;
 | DB2        | :material-check: |
 | MariaDB    | :material-check: |
 
-## CREATE TABLE
+### CREATE TABLE
 
 #### Description
 
@@ -927,7 +933,7 @@ CREATE TABLE table_name (
 | DB2        | :material-check: |
 | MariaDB    | :material-check: |
 
-## ALTER TABLE
+### ALTER TABLE
 
 #### Description
 
@@ -952,7 +958,7 @@ ADD column_name datatype;
 | DB2        | :material-check: |
 | MariaDB    | :material-check: |
 
-## DROP TABLE
+### DROP TABLE
 
 #### Description
 
@@ -980,7 +986,7 @@ DROP TABLE table_name;
 | DB2        | :material-check: |
 | MariaDB    | :material-check: |
 
-## Jointure SQL
+## Jointures
 
 ### INNER JOIN
 
@@ -1168,7 +1174,7 @@ NATURAL JOIN table2;
 | DB2        | :material-check: |
 | MariaDB    | :material-check: |
 
-## Sous-requête SQL
+## Sous-requêtes
 
 ### SELECT
 
@@ -1274,7 +1280,7 @@ WHERE column_name > ANY (SELECT column_name FROM table_name WHERE condition);
 | DB2        | :material-check: |
 | MariaDB    | :material-check: |
 
-## Index SQL
+## Index
 
 ### CREATE INDEX
 
@@ -1334,7 +1340,9 @@ FROM table_name;
 | DB2        | :material-check: |
 | MariaDB    | :material-check: |
 
-## OPTIMIZE
+## Autres
+
+### OPTIMIZE
 
 #### Description
 
