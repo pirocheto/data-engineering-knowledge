@@ -8,7 +8,7 @@ plugins:
       type: date
       fallback_to_build_date: true
 nav:
-  - Home: index.md
+  - index.md
   - SQL: 
     - Introduction: sql/intro.md
     - Concepts: sql/concepts.md

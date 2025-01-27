@@ -2,7 +2,7 @@
 hide:
   - navigation
   - footer
-  - title
+  - toc
 ---
 
 # Accueil
