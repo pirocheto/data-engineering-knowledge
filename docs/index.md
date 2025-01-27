@@ -1,4 +1,5 @@
 ---
+template: home.html
 hide:
   - navigation
   - footer
@@ -6,11 +7,17 @@ hide:
   - path
 ---
 
--
+# Site de connaissances dédié au **domaine des données**
 
-# Data Ingénierie
+Bienvenue sur mon site de connaissance dédié au domaine des données.  
+Vous trouverez ici des ressources sur les concepts, les technologies et les outils utilisés par les data ingénieurs pour collecter, stocker, traiter et analyser les données.
 
-Site de connaissances sur l'ingénierie des données.
+[Commencez la lecture](sql/getting-started/intro){ .md-button .md-button--primary }
+[Qui suis-je ? :octicons-link-external-16:](https://www.linkedin.com/in/pierre-rochet){ .md-button }
+
+---
+
+### Découvrez les rubriques
 
 <div class="grid cards" markdown>
 
