@@ -31,15 +31,15 @@ FROM table_name;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ## SELECT
 
@@ -60,15 +60,15 @@ FROM table_name;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ### DISTINCT
 
@@ -93,15 +93,15 @@ FROM table_name;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ### SQL_NO_CACHE
 
@@ -122,15 +122,15 @@ FROM table_name;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ❌         |
-| SQLite     | ❌         |
-| SQL Server | ❌         |
-| Oracle     | ❌         |
-| DB2        | ❌         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-close: |
+| SQLite     | :material-close: |
+| SQL Server | :material-close: |
+| Oracle     | :material-close: |
+| DB2        | :material-close: |
+| MariaDB    | :material-check: |
 
 ## WHERE
 
@@ -152,15 +152,15 @@ WHERE condition;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ### AND & OR
 
@@ -182,15 +182,15 @@ WHERE condition1 AND condition2;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ### IN
 
@@ -208,15 +208,15 @@ WHERE column_name IN (value1, value2, ...);
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ### BETWEEN
 
@@ -234,15 +234,15 @@ WHERE column_name BETWEEN value1 AND value2;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ### LIKE
 
@@ -264,15 +264,15 @@ WHERE column_name LIKE pattern;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ### Wildcards (%, \_)
 
@@ -290,15 +290,15 @@ WHERE column_name LIKE 'a%';
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ### IS NULL / IS NOT NULL
 
@@ -316,15 +316,15 @@ WHERE column_name IS NULL;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ## GROUP BY
 
@@ -346,15 +346,15 @@ GROUP BY column1, column2, ...;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ### WITH ROLLUP
 
@@ -373,15 +373,15 @@ WITH ROLLUP;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ## HAVING
 
@@ -404,15 +404,15 @@ HAVING condition;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ## ORDER BY
 
@@ -431,15 +431,15 @@ ORDER BY column1, column2, ... ASC|DESC;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ## AS (alias)
 
@@ -460,15 +460,15 @@ FROM table_name;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ## LIMIT
 
@@ -486,15 +486,15 @@ LIMIT number;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ## CASE
 
@@ -516,15 +516,15 @@ FROM table_name;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ## UNION
 
@@ -544,15 +544,15 @@ FROM table_name2;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ### UNION ALL
 
@@ -572,15 +572,15 @@ FROM table_name2;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ## INTERSECT
 
@@ -600,15 +600,15 @@ FROM table_name2;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ❌         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ❌         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-close: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-close: |
 
 ## EXCEPT / MINUS
 
@@ -628,15 +628,15 @@ FROM table_name2;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ❌         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ❌         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-close: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-close: |
 
 ## INSERT INTO
 
@@ -653,15 +653,15 @@ VALUES (value1, value2, ...);
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ### ON DUPLICATE KEY UPDATE
 
@@ -679,15 +679,15 @@ ON DUPLICATE KEY UPDATE column1 = value1, column2 = value2, ...;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ❌         |
-| SQLite     | ❌         |
-| SQL Server | ❌         |
-| Oracle     | ❌         |
-| DB2        | ❌         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-close: |
+| SQLite     | :material-close: |
+| SQL Server | :material-close: |
+| Oracle     | :material-close: |
+| DB2        | :material-close: |
+| MariaDB    | :material-check: |
 
 ## UPDATE
 
@@ -705,15 +705,15 @@ WHERE condition;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ## DELETE
 
@@ -730,15 +730,15 @@ WHERE condition;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ## MERGE
 
@@ -761,15 +761,15 @@ WHEN NOT MATCHED THEN
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ❌         |
-| PostgreSQL | ❌         |
-| SQLite     | ❌         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ❌         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-close: |
+| PostgreSQL | :material-close: |
+| SQLite     | :material-close: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-close: |
 
 ## TRUNCATE TABLE
 
@@ -785,15 +785,15 @@ TRUNCATE TABLE table_name;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ## CREATE DATABASE
 
@@ -809,15 +809,15 @@ CREATE DATABASE database_name;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ## DROP DATABASE
 
@@ -833,15 +833,15 @@ DROP DATABASE database_name;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ## CREATE TABLE
 
@@ -861,15 +861,15 @@ CREATE TABLE table_name (
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ### PRIMARY KEY
 
@@ -889,15 +889,15 @@ CREATE TABLE table_name (
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ### AUTO_INCREMENT
 
@@ -917,15 +917,15 @@ CREATE TABLE table_name (
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ## ALTER TABLE
 
@@ -942,15 +942,15 @@ ADD column_name datatype;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ## DROP TABLE
 
@@ -970,15 +970,15 @@ DROP TABLE table_name;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ## Jointure SQL
 
@@ -999,15 +999,15 @@ ON table1.column_name = table2.column_name;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ### CROSS JOIN
 
@@ -1025,15 +1025,15 @@ CROSS JOIN table2;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ### LEFT JOIN
 
@@ -1052,15 +1052,15 @@ ON table1.column_name = table2.column_name;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ### RIGHT JOIN
 
@@ -1079,15 +1079,15 @@ ON table1.column_name = table2.column_name;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ### FULL JOIN
 
@@ -1106,15 +1106,15 @@ ON table1.column_name = table2.column_name;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ❌         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ❌         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-close: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-close: |
 
 ### SELF JOIN
 
@@ -1132,15 +1132,15 @@ WHERE condition;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ### NATURAL JOIN
 
@@ -1158,15 +1158,15 @@ NATURAL JOIN table2;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ## Sous-requête SQL
 
@@ -1186,15 +1186,15 @@ WHERE column_name = (SELECT column_name FROM table_name WHERE condition);
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ### EXISTS
 
@@ -1212,15 +1212,15 @@ WHERE EXISTS (SELECT column_name FROM table_name WHERE condition);
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ### ALL
 
@@ -1238,15 +1238,15 @@ WHERE column_name > ALL (SELECT column_name FROM table_name WHERE condition);
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ### ANY / SOME
 
@@ -1264,15 +1264,15 @@ WHERE column_name > ANY (SELECT column_name FROM table_name WHERE condition);
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ## Index SQL
 
@@ -1295,15 +1295,15 @@ ON table_name (column1, column2, ...);
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ### EXPLAIN
 
@@ -1324,15 +1324,15 @@ FROM table_name;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |
 
 ## OPTIMIZE
 
@@ -1352,12 +1352,12 @@ OPTIMIZE TABLE table_name;
 
 #### Compatibilité
 
-|            | COMPATIBLE |
-| ---------- | ---------- |
-| MySQL      | ✅         |
-| PostgreSQL | ✅         |
-| SQLite     | ✅         |
-| SQL Server | ✅         |
-| Oracle     | ✅         |
-| DB2        | ✅         |
-| MariaDB    | ✅         |
+|            |    COMPATIBLE    |
+| ---------- | :--------------: |
+| MySQL      | :material-check: |
+| PostgreSQL | :material-check: |
+| SQLite     | :material-check: |
+| SQL Server | :material-check: |
+| Oracle     | :material-check: |
+| DB2        | :material-check: |
+| MariaDB    | :material-check: |

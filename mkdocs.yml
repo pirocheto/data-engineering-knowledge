@@ -8,8 +8,9 @@ plugins:
       type: date
       fallback_to_build_date: true
 nav:
+  - Home: index.md
   - SQL: 
-    - Introduction: sql/introduction.md
+    - Introduction: sql/intro.md
     - Concepts: sql/concepts.md
     - Démarrage: sql/getting-started.md
     - Syntaxe:
@@ -79,8 +80,9 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - toc:
-      # permalink: true
+      permalink: true
       toc_depth: 3
+  - md_in_html
 
 repo_url: https://github.com/pirocheto/data-engineering-docs
 repo_name: pirocheto/data-engineering-docs
