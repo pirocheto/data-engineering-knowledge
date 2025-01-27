@@ -22,7 +22,7 @@ nav:
 theme:
   custom_dir: overrides
   icon:
-    logo: octicons/workflow-16
+    logo: fontawesome/solid/circle-nodes
     repo: fontawesome/brands/git-alt
   language: fr
   name: material
