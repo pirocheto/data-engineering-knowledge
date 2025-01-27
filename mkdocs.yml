@@ -47,7 +47,7 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
-      primary: white
+      primary: black
       accent: teal
     - scheme: slate
       toggle:
