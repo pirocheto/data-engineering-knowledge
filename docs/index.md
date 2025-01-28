@@ -14,7 +14,7 @@ Vous trouverez ici des ressources sur les concepts, les technologies et les outi
 
 <div class="container-buttons">
 <a class="md-button md-button--primary" href='sql/getting-started/intro'>
-Commencez la lecture
+Commencer la lecture
 </a>
 <a class="md-button" href='https://www.linkedin.com/in/pierre-rochet'>
 Qui suis-je ?
