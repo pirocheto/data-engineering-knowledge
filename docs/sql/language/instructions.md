@@ -6,8 +6,6 @@ toc_depth: 3
 
 Les instructions SQL s'écrivent d'une manière qui ressemble à celle de phrases ordinaires en anglais. Cette ressemblance voulue vise à faciliter l'apprentissage et la lecture.
 
----
-
 ## Commentaires
 
 #### Description

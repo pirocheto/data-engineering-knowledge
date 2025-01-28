@@ -1,7 +1,5 @@
 # Fonctions
 
----
-
 ## Fonctions d’agrégation
 
 Les fonctions d’agrégation permettent de calculer une valeur unique à partir d’un ensemble de valeurs. Elles sont souvent utilisées avec la clause `GROUP BY` pour regrouper les lignes en fonction de certaines colonnes.

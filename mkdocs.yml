@@ -15,6 +15,15 @@ nav:
     - Concepts:
       - Modélisation: sql/concepts/modeling.md
       - Relations: sql/concepts/relashionships.md
+      - Indexes: sql/concepts/indexes.md
+      - Clés: sql/concepts/keys.md
+      - Permissions: sql/concepts/permissions.md
+      - Sous-requêtes: sql/concepts/subqueries.md
+    - Basiques:
+      - Sélection: sql/basics/select.md
+      - Insertion: sql/basics/insert.md
+      - Mise à jour: sql/basics/update.md
+      - Suppression: sql/basics/delete.md
     - Langage:
       - Instructions: sql/language/instructions.md
       - Fonctions: sql/language/functions.md
@@ -31,7 +40,7 @@ theme:
     - navigation.indexes
     - content.code.copy
     - navigation.tabs
-    - navigation.sections
+    # - navigation.sections
     - navigation.expand
     - toc.follow
     - navigation.top
