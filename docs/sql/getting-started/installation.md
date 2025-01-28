@@ -1,4 +1,10 @@
-# Démarrage
+# Installation d'un environnement d'apprentissage
+
+Cette section présente les étapes pour installer et configurer un environnement de développement pour vous entraîner à écrire et exécuter des requêtes SQL sur votre machine. Ici nous nous concentrons l'installation d'un environnement d'apprentissage en favorisant la simplicité et la rapidité de mise en place.
+
+!!! info ""
+
+    Garder en tête que SQL est un langage standardisé, mais chaque SGBDR (Système de Gestion de Base de Données Relationnelles) a ses spécificités. Dans un environnement de production, vous devrez choisir un SGBDR en fonction de vos besoins et de vos contraintes.
 
 ## Installer un SGBDR
 

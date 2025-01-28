@@ -6,6 +6,8 @@ toc_depth: 3
 
 Les instructions SQL s'écrivent d'une manière qui ressemble à celle de phrases ordinaires en anglais. Cette ressemblance voulue vise à faciliter l'apprentissage et la lecture.
 
+---
+
 ## Commentaires
 
 #### Description
@@ -44,6 +46,8 @@ FROM table_name;
 | Oracle     | :material-check: |
 | DB2        | :material-check: |
 | MariaDB    | :material-check: |
+
+---
 
 ## Selection de données
 
@@ -644,6 +648,8 @@ FROM table_name2;
 | DB2        | :material-check: |
 | MariaDB    | :material-close: |
 
+---
+
 ## Modifications de données
 
 ### INSERT INTO
@@ -778,6 +784,8 @@ WHEN NOT MATCHED THEN
 | Oracle     | :material-check: |
 | DB2        | :material-check: |
 | MariaDB    | :material-close: |
+
+---
 
 ## Manipulation de la structure
 
@@ -990,6 +998,8 @@ DROP TABLE table_name;
 | DB2        | :material-check: |
 | MariaDB    | :material-check: |
 
+---
+
 ## Jointures
 
 ### INNER JOIN
@@ -1178,6 +1188,8 @@ NATURAL JOIN table2;
 | DB2        | :material-check: |
 | MariaDB    | :material-check: |
 
+---
+
 ## Sous-requêtes
 
 ### SELECT
@@ -1284,6 +1296,8 @@ WHERE column_name > ANY (SELECT column_name FROM table_name WHERE condition);
 | DB2        | :material-check: |
 | MariaDB    | :material-check: |
 
+---
+
 ## Index
 
 ### CREATE INDEX
@@ -1343,6 +1357,8 @@ FROM table_name;
 | Oracle     | :material-check: |
 | DB2        | :material-check: |
 | MariaDB    | :material-check: |
+
+---
 
 ## Autres
 

@@ -9,15 +9,15 @@ plugins:
       fallback_to_build_date: true
 nav:
   - SQL:
-      - Démarrage:
-          - Introduction: sql/getting-started/intro.md
-          - Installation: sql/getting-started/installation.md
-      - Concepts:
-          - Modélisation: sql/concepts/modeling.md
-          - Relations: sql/concepts/relashionships.md
-      - Langage:
-          - Instructions: sql/language/instructions.md
-          - Functions: sql/language/functions.md
+    - Démarrage:
+      - Introduction: sql/getting-started/intro.md
+      - Installation: sql/getting-started/installation.md
+    - Concepts:
+      - Modélisation: sql/concepts/modeling.md
+      - Relations: sql/concepts/relashionships.md
+    - Langage:
+      - Instructions: sql/language/instructions.md
+      - Fonctions: sql/language/functions.md
   - Ressources: resources.md
 theme:
   custom_dir: overrides
@@ -27,13 +27,12 @@ theme:
   language: fr
   name: material
   features:
-    - toc.integrate
+    # - toc.integrate
     - navigation.indexes
     - content.code.copy
     - navigation.tabs
     - navigation.sections
     - navigation.expand
-    - navigation.path
     - toc.follow
     - navigation.top
     - search.suggest

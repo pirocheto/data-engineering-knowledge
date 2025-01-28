@@ -7,9 +7,9 @@ hide:
   - path
 ---
 
-# Site de connaissances dédié au **domaine des données**
+# Site de connaissances dédié à **l'ingénierie des données**
 
-Bienvenue sur mon site de connaissance dédié au domaine des données.  
+Bienvenue sur mon site de connaissance dédié à l'ingénierie des données.  
 Vous trouverez ici des ressources sur les concepts, les technologies et les outils utilisés par les data ingénieurs pour collecter, stocker, traiter et analyser les données.
 
 <div class="container-buttons">
