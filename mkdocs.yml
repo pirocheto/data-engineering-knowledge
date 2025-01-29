@@ -7,27 +7,29 @@ plugins:
   - git-revision-date-localized:
       type: date
       fallback_to_build_date: true
+      exclude:
+        - index.md
+
 nav:
-  - SQL:
-    - Démarrage:
-      - Introduction: sql/getting-started/intro.md
-      - Installation: sql/getting-started/installation.md
-    - Concepts:
-      - Modélisation: sql/concepts/modeling.md
-      - Relations: sql/concepts/relashionships.md
-      - Indexes: sql/concepts/indexes.md
-      - Clés: sql/concepts/keys.md
-      - Permissions: sql/concepts/permissions.md
-      - Sous-requêtes: sql/concepts/subqueries.md
-    - Basiques:
-      - Sélection: sql/basics/select.md
-      - Insertion: sql/basics/insert.md
-      - Mise à jour: sql/basics/update.md
-      - Suppression: sql/basics/delete.md
-    - Langage:
-      - Instructions: sql/language/instructions.md
-      - Fonctions: sql/language/functions.md
-  - Ressources: resources.md
+  # -- Not in tabs --
+  - Python: 
+      - programming/python/index.md
+      - Test: programming/python/test.md
+      - Test2: programming/python/test2.md
+  - Bash: programming/bash/index.md
+
+  # -- In tabs --
+  - Accueil: index.md
+  - Programmation: programming/index.md
+  - Bases de données: databases/intro.md
+  - Architecture de données: architecture/intro.md
+  - Pipeline de données: data-pipeline/intro.md
+  - Machine Learning: ml/intro.md
+  - DataOps: infrastructure/dataops.md
+  - Outils: tools/intro.md
+  - Ressources: resources/index.md
+  - FAQ: faq/index.md
+
 theme:
   custom_dir: overrides
   icon:
@@ -42,6 +44,7 @@ theme:
     - navigation.tabs
     # - navigation.sections
     - navigation.expand
+    # - navigation.instant
     - toc.follow
     - navigation.top
     - search.suggest
@@ -103,4 +106,4 @@ repo_name: pirocheto/data-engineering-docs
 copyright: Copyright &copy; 2025 Pirocheto
 
 extra_css:
-  - stylesheets/extra.css
+  - assets/stylesheets/extra.css

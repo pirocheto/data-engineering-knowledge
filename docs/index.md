@@ -4,7 +4,6 @@ hide:
   - navigation
   - footer
   - toc
-  - path
 ---
 
 # Site de connaissances dédié à **l'ingénierie des données**
@@ -23,27 +22,84 @@ Qui suis-je ?
 
 ---
 
-### Découvrez les rubriques
+### Découvrez les grandes thématiques
 
 <div class="grid cards" markdown>
 
 <!-- prettier-ignore-start -->
--   :material-database:{ .lg .middle } __SQL__
+-   :material-file-code:{ .lg .middle } __Programmation__
 
     ---
 
-    Le __langage de requêtes__ structurées pour interagir avec les bases de données relationnelles.
+    Connaitre les langages de programmation utilisés en ingénierie des données.
 
-    [:octicons-arrow-right-24: Commencer la lecture](sql/getting-started/intro)
+    [:octicons-arrow-right-24: Commencer la lecture](programming/)
 
--   :material-language-python:{ .lg .middle } __Python__
+-   :material-database:{ .lg .middle } __Base de données__
 
     ---
 
-    Le __langage de programmation__ polyvalent le plus populaire pour le traitement des données.
+    Notions sur les bases de données relationnelles et NoSQL.
+
+    [:octicons-arrow-right-24: Commencer la lecture](databases/)
+
+-   :fontawesome-solid-diagram-project:{ .lg .middle } __Architecture de données__
+
+    ---
+
+    Comprendre les différentes architectures de données.
+
+    [:octicons-arrow-right-24: Commencer la lecture](data-architecture/)
+
+-  :material-filter-cog:{ .lg .middle } __Pipeline de données__
+
+    ---
+
+    Découvrir les pipelines de données et les outils ETL et ELT.
+
+    [:octicons-arrow-right-24: Commencer la lecture](data-pipeline/)
+
+-  :octicons-infinity-16:{ .lg .middle } __DataOps__
+
+    ---
+
+    Appliquer les pratiques DevOps au monde des données.
+
+    [:octicons-arrow-right-24: Commencer la lecture](machine-learning/)
+
+-  :octicons-ai-model-16:{ .lg .middle } __Machine Learning__
+
+    ---
+
+    Apprendre les notions de base du machine learning pour les data ingénieurs.
+
+    [:octicons-arrow-right-24: Commencer la lecture](machine-learning/)
 
 
-    [:octicons-arrow-right-24: Commencer la lecture](#)
+<!-- prettier-ignore-end -->
+
+</div>
+
+### Parcourez les listes de ressources
+
+<div class="grid cards" markdown>
+
+<!-- prettier-ignore-start -->
+-  :material-tools:{ .lg .middle } __Outils__
+
+    ---
+
+    Une liste des outils les plus populaires chez les data ingénieurs.
+
+    [:octicons-arrow-right-24: Commencer la lecture](tools/)
+
+-  :octicons-link-16:{ .lg .middle } __Liens utiles__
+
+    ---
+
+    Une liste de rousources et de liens utiles pour approfondir les sujets.
+
+    [:octicons-arrow-right-24: Commencer la lecture](resources/)
 
 
 <!-- prettier-ignore-end -->
