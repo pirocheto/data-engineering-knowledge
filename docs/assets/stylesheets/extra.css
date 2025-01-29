@@ -38,6 +38,6 @@
   flex-wrap: wrap;
 }
 
-.md-tabs__item:nth-child(-n + 2) {
+/* .md-tabs__item:nth-child(-n + 2) {
   display: none;
-}
+} */

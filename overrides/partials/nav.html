@@ -27,7 +27,9 @@ in features %} {% set class = class ~ " md-nav--integrated" %} {% endif %}
   {% endif %}
 
   <!--  -->
-  {% set ignore = ['Python', 'Bash'] %}
+  {% import "partials/ignore-macro.html" as ignore_list %}
+  <!--  -->
+  {% set ignore = ignore_list.get_ignore() %}
 
   <!-- Navigation list -->
   <ul class="md-nav__list" data-md-scrollfix>
