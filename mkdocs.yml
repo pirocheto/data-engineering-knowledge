@@ -21,7 +21,7 @@ nav:
   - Pipeline de données: 
     - data-pipeline/index.md
   - Machine Learning: 
-    - ml/index.md
+    - machine-learning/index.md
   - DataOps:
     - dataops/index.md
   - Projets: 
