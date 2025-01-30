@@ -26,15 +26,9 @@ in features %} {% set class = class ~ " md-nav--integrated" %} {% endif %}
   <div class="md-nav__source">{% include "partials/source.html" %}</div>
   {% endif %}
 
-  <!--  -->
-  {% import "partials/ignore-macro.html" as ignore_list %}
-  <!--  -->
-  {% set ignore = ignore_list.get_ignore() %}
-
   <!-- Navigation list -->
   <ul class="md-nav__list" data-md-scrollfix>
-    {% for nav_item in nav %} {% if nav_item.title not in ignore %} {% set path
-    = "__nav_" ~ loop.index %} {{ item.render(nav_item, path, 1) }} {% endif %}
-    {% endfor %}
+    {% for nav_item in nav %} {% set path = "__nav_" ~ loop.index %} {{
+    item.render(nav_item, path, 1) }} {% endfor %}
   </ul>
 </nav>

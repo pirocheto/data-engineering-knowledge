@@ -11,24 +11,20 @@ plugins:
         - index.md
 
 nav:
-  # -- Not in tabs --
-  - Python: 
-      - programming/python/index.md
-      - Test: programming/python/test.md
-      - Test2: programming/python/test2.md
-  - Bash: programming/bash/index.md
-
-  # -- In tabs --
   - Accueil: index.md
-  - Programmation: programming/index.md
+  - Python: 
+    - programming/python/index.md
+    - Test: programming/python/test.md
+    - Test2: programming/python/test2.md
   - Bases de données: databases/intro.md
   - Architecture de données: architecture/intro.md
   - Pipeline de données: data-pipeline/intro.md
   - Machine Learning: ml/intro.md
-  - DataOps: infrastructure/dataops.md
-  - Outils: tools/intro.md
-  - Ressources: resources/index.md
-  - FAQ: faq/index.md
+  - DataOps: infrastructure/dataops.md  
+  - Outils: tools.md
+  - Projets: projects/index.md
+  - Ressources: resources.md
+  - FAQ: faq.md
 
 theme:
   custom_dir: overrides

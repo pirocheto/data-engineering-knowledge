@@ -71,7 +71,7 @@ Qui suis-je ?
 
     ---
 
-    Apprendre les notions de base du machine learning pour les data ingénieurs.
+    Apprendre les bases du machine learning pour les data ingénieurs.
 
     [:octicons-arrow-right-24: Commencer la lecture](machine-learning/)
 
@@ -91,7 +91,16 @@ Qui suis-je ?
 
     Une liste des outils les plus populaires chez les data ingénieurs.
 
-    [:octicons-arrow-right-24: Commencer la lecture](tools/)
+    [:octicons-arrow-right-24: Parcourir la liste](tools/)
+
+-  :material-presentation-play:{ .lg .middle } __Projets__
+
+    ---
+
+    Une liste de projets et de cas pratiques avec code source.
+
+    [:octicons-arrow-right-24: Parcourir la liste](resources/)
+
 
 -  :octicons-link-16:{ .lg .middle } __Liens utiles__
 
@@ -99,7 +108,7 @@ Qui suis-je ?
 
     Une liste de rousources et de liens utiles pour approfondir les sujets.
 
-    [:octicons-arrow-right-24: Commencer la lecture](resources/)
+    [:octicons-arrow-right-24: Parcourir la liste](resources/)
 
 
 <!-- prettier-ignore-end -->
