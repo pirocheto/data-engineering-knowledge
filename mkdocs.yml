@@ -14,15 +14,19 @@ nav:
   - Accueil: index.md
   - Python: 
     - programming/python/index.md
-    - Test: programming/python/test.md
-    - Test2: programming/python/test2.md
-  - Bases de données: databases/intro.md
-  - Architecture de données: architecture/intro.md
-  - Pipeline de données: data-pipeline/intro.md
-  - Machine Learning: ml/intro.md
-  - DataOps: infrastructure/dataops.md  
+  - Bases de données: 
+    - databases/index.md
+  - Architecture de données: 
+    - architecture/index.md
+  - Pipeline de données: 
+    - data-pipeline/index.md
+  - Machine Learning: 
+    - ml/index.md
+  - DataOps:
+    - dataops/index.md
+  - Projets: 
+    - projects/index.md
   - Outils: tools.md
-  - Projets: projects/index.md
   - Ressources: resources.md
   - FAQ: faq.md
 

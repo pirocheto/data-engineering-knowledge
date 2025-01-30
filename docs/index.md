@@ -27,7 +27,7 @@ Qui suis-je ?
 <div class="grid cards" markdown>
 
 <!-- prettier-ignore-start -->
--   :material-file-code:{ .lg .middle } __Programmation__
+-   :material-code-json:{ .lg .middle } __Programmation__
 
     ---
 
@@ -35,7 +35,7 @@ Qui suis-je ?
 
     [:octicons-arrow-right-24: Commencer la lecture](programming/)
 
--   :material-database:{ .lg .middle } __Base de données__
+-  :material-database-cog-outline:{ .lg .middle } __Base de données__
 
     ---
 
@@ -43,15 +43,15 @@ Qui suis-je ?
 
     [:octicons-arrow-right-24: Commencer la lecture](databases/)
 
--   :fontawesome-solid-diagram-project:{ .lg .middle } __Architecture de données__
+-  :material-vector-polygon-variant:{ .lg .middle } __Architecture de données__
 
     ---
 
     Comprendre les différentes architectures de données.
 
-    [:octicons-arrow-right-24: Commencer la lecture](data-architecture/)
+    [:octicons-arrow-right-24: Commencer la lecture](architecture/)
 
--  :material-filter-cog:{ .lg .middle } __Pipeline de données__
+-  :material-filter-cog-outline:{ .lg .middle } __Pipeline de données__
 
     ---
 
@@ -59,13 +59,13 @@ Qui suis-je ?
 
     [:octicons-arrow-right-24: Commencer la lecture](data-pipeline/)
 
--  :octicons-infinity-16:{ .lg .middle } __DataOps__
+-  :material-infinity:{ .lg .middle } __DataOps__
 
     ---
 
     Appliquer les pratiques DevOps au monde des données.
 
-    [:octicons-arrow-right-24: Commencer la lecture](machine-learning/)
+    [:octicons-arrow-right-24: Commencer la lecture](dataops/)
 
 -  :octicons-ai-model-16:{ .lg .middle } __Machine Learning__
 
