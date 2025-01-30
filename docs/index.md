@@ -85,14 +85,6 @@ Qui suis-je ?
 <div class="grid cards" markdown>
 
 <!-- prettier-ignore-start -->
--  :material-tools:{ .lg .middle } __Outils__
-
-    ---
-
-    Une liste des outils les plus populaires chez les data ingénieurs.
-
-    [:octicons-arrow-right-24: Parcourir la liste](tools/)
-
 -  :material-presentation-play:{ .lg .middle } __Projets__
 
     ---
@@ -101,6 +93,13 @@ Qui suis-je ?
 
     [:octicons-arrow-right-24: Parcourir la liste](resources/)
 
+-  :material-tools:{ .lg .middle } __Outils__
+
+    ---
+
+    Une liste des outils les plus populaires chez les data ingénieurs.
+
+    [:octicons-arrow-right-24: Parcourir la liste](tools/)
 
 -  :octicons-link-16:{ .lg .middle } __Liens utiles__
 
