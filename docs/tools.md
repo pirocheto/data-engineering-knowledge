@@ -63,7 +63,7 @@ hide:
 - uv, un gestionnaire de projet et de dépendances Python écrit en Rust. :simple-python: :yellow_heart:  
   [https://uvcli.com/](https://uvcli.com/)
 
-### Data Visualization
+### Visualisation de données
 
 - Altair, une librairie de visualisation de données déclarative en Python. :simple-python: :yellow_heart:  
   [https://altair-viz.github.io/](https://altair-viz.github.io/)
