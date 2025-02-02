@@ -83,7 +83,7 @@ hide:
 - ECharts, une librairie de visualisation de données en JavaScript. :simple-javascript: :yellow_heart:  
   [https://echarts.apache.org/](https://echarts.apache.org/)
 
-### Web
+### Prototypage d'application
 
 - Streamlit, un framework pour la création d'applications web en Python. :simple-python:  
   [https://www.streamlit.io/](https://www.streamlit.io/)
@@ -93,7 +93,10 @@ hide:
 
 ### Streaming
 
-- Kafka, une plateforme de streaming distribuée.  
+- Flink, un moteur de traitement de données en temps réel. :simple-python:
+  [https://flink.apache.org/](https://flink.apache.org/)
+
+- Kafka, une plateforme de streaming distribuée.
   [https://kafka.apache.org/](https://kafka.apache.org/)
 
 ### Machine Learning
@@ -115,3 +118,18 @@ hide:
 
 - Hugging Face, une librairie de NLP en Python. :simple-python: :yellow_heart:  
   [https://huggingface.co/](https://huggingface.co/)
+
+### Fournisseurs Cloud
+
+- AWS, Amazon Web Services. :yellow_heart:  
+  [https://aws.amazon.com/](https://aws.amazon.com/)
+
+- GCP, Google Cloud Platform.
+  [https://cloud.google.com/](https://cloud.google.com/)
+
+- Azure, Microsoft Azure.  
+  [https://azure.microsoft.com/](https://azure.microsoft.com/)
+
+- Scaleway, Scaleway Cloud. :yellow_heart:  
+  Moins de service que AWS, GCP et Azure. Mais des prix plus compétitifs.
+  [https://www.scaleway.com/](https://www.scaleway.com/)
