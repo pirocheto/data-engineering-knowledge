@@ -93,7 +93,7 @@ hide:
 
 ### Streaming
 
-- Flink, un moteur de traitement de données en temps réel. :simple-python:
+- Flink, un moteur de traitement de données en temps réel.  
   [https://flink.apache.org/](https://flink.apache.org/)
 
 - Kafka, une plateforme de streaming distribuée.
@@ -131,5 +131,5 @@ hide:
   [https://azure.microsoft.com/](https://azure.microsoft.com/)
 
 - Scaleway, Scaleway Cloud. :yellow_heart:  
-  Moins de service que AWS, GCP et Azure. Mais des prix plus compétitifs.
+  Moins de service que AWS, GCP et Azure. Mais des prix plus compétitifs.  
   [https://www.scaleway.com/](https://www.scaleway.com/)
