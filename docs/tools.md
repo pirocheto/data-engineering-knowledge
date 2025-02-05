@@ -83,6 +83,23 @@ hide:
 - ECharts, une librairie de visualisation de données en JavaScript. :simple-javascript: :yellow_heart:  
   [https://echarts.apache.org/](https://echarts.apache.org/)
 
+### Business Intelligence
+
+- Metabase, un outil de Business Intelligence.
+  [https://www.metabase.com/](https://www.metabase.com/)
+
+- Power BI, un outil de Business Intelligence de Microsoft.  
+  [https://powerbi.microsoft.com/](https://powerbi.microsoft.com/)
+
+- Superset, un outil de Business Intelligence de Apache.  
+  [https://superset.apache.org/](https://superset.apache.org/)
+
+- QuickSight, un outil de Business Intelligence d'AWS.  
+  [https://aws.amazon.com/quicksight/](https://aws.amazon.com/quicksight/)
+
+- Looker, un outil de Business Intelligence de Google Cloud.  
+  [https://looker.com/](https://looker.com/)
+
 ### Prototypage d'application
 
 - Streamlit, un framework pour la création d'applications web en Python. :simple-python:  
