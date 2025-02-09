@@ -10,4 +10,5 @@ wheels/
 .venv
 .cache
 
-Chinook_Sqlite.sqlite
+.mypy_cache/
+.vscode/

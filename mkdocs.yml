@@ -1,5 +1,5 @@
 site_name: Data Ingénierie
-site_url: https://pirocheto.github.io/data-engineering-knowledge/
+site_url: https://pirocheto.github.io/data-engineering-projects/
 plugins:
   - privacy
   - search
@@ -12,23 +12,14 @@ plugins:
 
 nav:
   - Accueil: index.md
-  - Python: 
-    - programming/python/index.md
-  - Bases de données: 
-    - databases/index.md
-  - Architecture de données: 
-    - architecture/index.md
-  - Pipeline de données: 
-    - data-pipeline/index.md
-  - Machine Learning: 
-    - machine-learning/index.md
-  - DataOps:
-    - dataops/index.md
-  - Projets: 
-    - projects/index.md
+  - Data Engineering: 
+    - index: projects/data-engineering/index.md
+  - DataOps: 
+    - index: projects/dataops/index.md
+  - Machine Learning:
+    - Déployer un modèle Hugging Face sur SageMaker: projects/machine-learning/01.md
   - Outils: tools.md
   - Ressources: resources.md
-  - FAQ: faq.md
 
 theme:
   custom_dir: overrides
@@ -42,7 +33,7 @@ theme:
     - navigation.indexes
     - content.code.copy
     - navigation.tabs
-    # - navigation.sections
+    - navigation.sections
     - navigation.expand
     # - navigation.instant
     - toc.follow
