@@ -1,0 +1,39 @@
+[data-md-color-scheme="custom-light"] {
+  /* Primary color shades */
+  --md-primary-fg-color: hsla(320, 100%, 25%, 1); /* Magenta foncé */
+  --md-primary-fg-color--light: hsl(320, 100%, 35%);
+  --md-primary-fg-color--dark: hsla(320, 100%, 20%, 1);
+  --md-primary-bg-color: hsla(320, 100%, 95%, 1);
+  --md-primary-bg-color--light: hsla(320, 100%, 95%, 0.7);
+
+  /* Accent color shades */
+  --md-accent-fg-color: hsla(350, 70%, 60%, 1); /* Plus rosé */
+  --md-accent-fg-color--transparent: hsla(350, 70%, 60%, 0.1);
+  --md-accent-bg-color: hsla(350, 70%, 95%, 1);
+  --md-accent-bg-color--light: hsla(350, 70%, 95%, 0.7);
+
+  --md-typeset-a-color: var(--md-accent-fg-color) !important;
+}
+
+[data-md-color-scheme="slate"] {
+  /* Primary color shades */
+  --md-primary-fg-color: hsl(320, 100%, 30%); /* Magenta foncé */
+  --md-primary-fg-color--light: hsla(320, 100%, 40%, 1);
+  --md-primary-fg-color--dark: hsla(320, 100%, 25%, 1);
+  --md-primary-bg-color: hsla(320, 100%, 97%, 1);
+  --md-primary-bg-color--light: hsla(320, 100%, 97%, 0.7);
+
+  /* Accent color shades */
+  --md-accent-fg-color: hsla(340, 50%, 60%, 1); /* Vieux rose */
+  --md-accent-fg-color--transparent: hsla(340, 50%, 60%, 0.1);
+  --md-accent-bg-color: hsla(340, 50%, 95%, 1);
+  --md-accent-bg-color--light: hsla(340, 50%, 95%, 0.7);
+
+  --md-typeset-a-color: var(--md-accent-fg-color) !important;
+}
+
+.container-buttons {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
