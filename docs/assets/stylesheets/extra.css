@@ -1,7 +1,7 @@
 [data-md-color-scheme="custom-light"] {
   /* Primary color shades */
   --md-primary-fg-color: hsla(320, 100%, 25%, 1); /* Magenta foncé */
-  --md-primary-fg-color--light: hsla(320, 100%, 35%, 1);
+  --md-primary-fg-color--light: hsl(320, 100%, 35%);
   --md-primary-fg-color--dark: hsla(320, 100%, 20%, 1);
   --md-primary-bg-color: hsla(320, 100%, 95%, 1);
   --md-primary-bg-color--light: hsla(320, 100%, 95%, 0.7);
